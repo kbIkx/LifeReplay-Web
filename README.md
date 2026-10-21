@@ -28,6 +28,10 @@ The production static site is written to `out/`. Serve that directory with any s
 
 ## Deployment
 
+Live site: https://lifereplay-product.vercel.app
+
+The current Vercel deployment was uploaded from `out/`. It is not connected to GitHub, so new pushes do not deploy automatically. Rebuild and upload `out/` after source changes until a Git integration is connected.
+
 Deploy `out/` to any static host. Before moving to a custom domain, update `site.url` in `content/site.ts` and rebuild so Open Graph, `sitemap.xml`, and `robots.txt` use the new origin. No backend, database, credentials or environment secrets are required for the current site.
 
 ## Content and status updates
