@@ -3,7 +3,7 @@ export const site = {
   tagline: "Life doesn't have a replay button. Now it does.",
   description: "LifeReplay is a camera prototype that saves the moments before and after you press a button.",
   github: "https://github.com/kbIkx/LifeReplay",
-  url: "https://lifereplay-product.kbikkbikovich.chatgpt.site",
+  url: "https://lifereplay-product.vercel.app",
   deviceStatus: "Prototype in development",
   microphoneStatus: "In integration",
 };
